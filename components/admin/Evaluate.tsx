@@ -7,7 +7,7 @@ import { APPLICANTS_DATA } from '@/lib/data';
 
 const MOCK_ANSWERS: Record<string, { q: string; a: string; type: 'mcq' | 'short' }[]> = {
   a1: [
-    { q: 'What is the purpose of the OSI model?', a: 'The OSI model provides a conceptual framework for how network communication occurs between two devices. It has 7 layers that each handle specific aspects of communication.', type: 'short' },
+    { q: 'What is the purpose  of the OSI model?', a: 'The OSI model provides a conceptual framework for how network communication occurs between two devices. It has 7 layers that each handle specific aspects of communication.', type: 'short' },
     { q: 'Which protocol is used for dynamic IP addressing?', a: 'DHCP', type: 'mcq' },
     { q: 'What does BGP stand for?', a: 'Border Gateway Protocol', type: 'mcq' },
     { q: 'Explain the difference between TCP and UDP.', a: 'TCP is connection-oriented and reliable, ensuring data delivery. UDP is connectionless and faster but doesn\'t guarantee delivery. TCP is used for web, email; UDP for video streaming, VoIP.', type: 'short' },
