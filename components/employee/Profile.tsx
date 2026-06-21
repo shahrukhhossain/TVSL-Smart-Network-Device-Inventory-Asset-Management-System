@@ -6,7 +6,7 @@ import { Icon } from '@/components/ui/Icon';
 const PROFILE = {
   name: 'A M Rashid Ashef Hossain',
   role: ' IT Manager',
-  team: 'IT Team',
+  team: ' IT Team',
   email: 'rashid@tvsl-bd.com',
   phone: '+88 01711-000000',
   joined: 'January 15, 2022',
