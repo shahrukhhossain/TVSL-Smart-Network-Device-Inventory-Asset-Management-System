@@ -16,7 +16,7 @@ const MOCK_ANSWERS: Record<string, { q: string; a: string; type: 'mcq' | 'short'
   a3: [
     { q: 'What is VMware vSphere?', a: 'vSphere is VMware\'s server virtualization platform that combines ESXi hypervisor with vCenter for management. It allows creating and managing virtual machines on physical servers.', type: 'short' },
     { q: 'What is the default SSH port?', a: '22', type: 'mcq' },
-    { q: 'What does RAID stand for?', a: 'Redundant Array of Independent Disks', type: 'mcq' },
+    { q: 'What does RAID  stand for?', a: 'Redundant Array of Independent Disks', type: 'mcq' },
     { q: 'Explain the difference between Docker containers and VMs.', a: 'Docker containers share the host OS kernel and are lightweight, starting in seconds. VMs run a full OS with a hypervisor, giving better isolation but using more resources.', type: 'short' },
     { q: 'What is a kernel in Linux?', a: 'The core of the OS that manages hardware resources and system calls', type: 'mcq' },
   ],
