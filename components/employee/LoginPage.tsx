@@ -25,7 +25,7 @@ export default function LoginPage({ go, onLogin }: Props) {
     { icon: '🖥️', title: 'Personal Dashboard', desc: 'View your tasks, attendance, notices and performance at a glance.' },
     { icon: '👥', title: 'Team Collaboration', desc: 'Connect with your team, view member profiles and communicate in real-time.' },
     { icon: '💬', title: 'Team Chat', desc: 'Message your colleagues across channels — General, IT, Networking and more.' },
-    { icon: '🔔', title: 'Notices & Updates', desc: 'Stay informed with company announcements and priority alerts.' },
+    { icon: '🔔', title: 'Notices  & Updates', desc: 'Stay informed with company announcements and priority alerts.' },
   ];
 
   const features = role === 'admin' ? adminFeatures : employeeFeatures;
