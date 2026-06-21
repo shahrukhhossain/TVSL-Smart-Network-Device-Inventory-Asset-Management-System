@@ -9,7 +9,7 @@ type Msg = { id: string; sender: string; text: string; time: string; mine: boole
 
 const INIT_MSGS: Record<string, Msg[]> = {
   general: [
-    { id: 'm1', sender: 'Khaleda Khatun', text: 'Good morning team! Don\'t forget the Q2 review this Friday at 10am.', time: '9:02 AM', mine: false },
+    { id: 'm1', sender: 'Khaleda Khatun ', text: 'Good morning team! Don\'t forget the Q2 review this Friday at 10am.', time: '9:02 AM', mine: false },
     { id: 'm2', sender: 'Mizanur Rahman', text: 'Got it. Will the meeting room be booked?', time: '9:15 AM', mine: false },
     { id: 'm3', sender: 'Rafiul Islam', text: 'Yes, Conference Room B is reserved from 10–11:30 AM.', time: '9:18 AM', mine: true },
     { id: 'm4', sender: 'Asif Karim', text: 'Perfect. I\'ll prepare the server uptime report before then.', time: '9:22 AM', mine: false },
