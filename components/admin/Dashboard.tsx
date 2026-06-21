@@ -13,7 +13,7 @@ const PIPELINE = [
 ];
 
 const RECENT_ACTIVITY = [
-  { text: 'Abu Sayeed shortlisted for Network Engineer', time: '2 hours ago', icon: 'check', tone: 'success' },
+  { text: 'Abu Sayeed  shortlisted for Network Engineer', time: '2 hours ago', icon: 'check', tone: 'success' },
   { text: 'Farhan Haque submitted Server Admin exam (91%)', time: '5 hours ago', icon: 'chart', tone: 'primary' },
   { text: 'New application: Tania Sultana (IT Support)', time: '1 day ago', icon: 'user', tone: 'info' },
   { text: 'Job post "Sales Executive" expires in 2 days', time: '1 day ago', icon: 'warning', tone: 'warning' },
