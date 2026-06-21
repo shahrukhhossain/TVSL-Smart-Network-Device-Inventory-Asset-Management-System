@@ -10,7 +10,7 @@ export default function EmployeeDashboard({ go }: { go: (s: string) => void }) {
 
   const tasks = [
     { id: 1, title: 'Review network topology for Apex Corp', tag: 'Networking', priority: 'high', due: 'Today', done: false },
-    { id: 2, title: 'Submit Q2 performance self-review', tag: 'HR', priority: 'high', due: 'June 18', done: false },
+    { id: 2, title: 'Submit Q2 performance  self-review', tag: 'HR', priority: 'high', due: 'June 18', done: false },
     { id: 3, title: 'Update switch firmware on core stack', tag: 'Maintenance', priority: 'medium', due: 'June 20', done: true },
     { id: 4, title: 'Team stand-up — 10:00 AM', tag: 'Meeting', priority: 'low', due: 'Today', done: false },
     { id: 5, title: 'Document new VLAN configurations', tag: 'Documentation', priority: 'medium', due: 'June 22', done: false },
