@@ -16,7 +16,7 @@ export default function LoginPage({ go, onLogin }: Props) {
   // Admin-specific right panel content
   const adminFeatures = [
     { icon: '👥', title: ' Employee Management', desc: 'Manage all employees, teams, roles and departments from one place.' },
-    { icon: '📋', title: 'Recruitment Pipeline', desc: 'Review applications, run AI exams, shortlist and hire top candidates.' },
+    { icon: '📋', title: ' Recruitment Pipeline', desc: 'Review applications, run AI exams, shortlist and hire top candidates.' },
     { icon: '✨', title: 'AI-Powered Tools', desc: 'CV scanner, exam generator and answer evaluator powered by Gemini AI.' },
     { icon: '📢', title: 'Notices & Announcements', desc: 'Publish company-wide notices and manage internal communications.' },
   ];
