@@ -64,7 +64,7 @@ export default function AdminCVScan() {
         score,
         skills: { found: foundSkills, missing: missingSkills },
         experience: `${Math.floor(Math.random() * 4) + 1} years in relevant roles`,
-        education: 'BSc Computer Science / Engineering',
+        education: 'BSc Computer  Science / Engineering',
         summary: `This candidate shows ${score >= 75 ? 'strong' : score >= 60 ? 'moderate' : 'limited'} alignment with the ${job.title} position. They demonstrate knowledge in ${foundSkills.slice(0, 2).join(' and ')}. Experience level appears ${score >= 75 ? 'well-suited' : 'partially suited'} for the role requirements. Recommended for ${score >= 75 ? 'further interview process' : score >= 60 ? 'technical screening' : 'consideration after skill development'}.`,
         recommendation: score >= 80 ? 'Strong Match' : score >= 65 ? 'Good Match' : score >= 50 ? 'Partial Match' : 'Not Suitable',
       });
